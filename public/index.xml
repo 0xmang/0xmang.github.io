@@ -2,18 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Project</title>
-    <link>https://0xmang.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://0xmang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2026 14:38:55 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Second Post</title>
+      <link>http://localhost:1313/posts/my-second-post/</link>
+      <pubDate>Fri, 06 Mar 2026 14:38:55 -0500</pubDate>
+      <guid>http://localhost:1313/posts/my-second-post/</guid>
+      <description>&lt;p&gt;Thanks!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Security Post</title>
-      <link>https://0xmang.github.io/blogs/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://0xmang.github.io/blogs/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;Welcome to my security blog.&lt;/p&gt;&#xA;&lt;p&gt;Here I&amp;rsquo;ll write about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CTF walkthroughs&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes security&lt;/li&gt;&#xA;&lt;li&gt;cloud security labs&lt;/li&gt;&#xA;&lt;li&gt;GRC automation experiments&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;h2 id=&#34;namerabih&#34;&gt;*Name:*Rabih&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;h1 id=&#34;my-resume&#34;&gt;My resume&lt;/h1&gt;&#xA;&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>
