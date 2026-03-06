@@ -1,8 +1,4 @@
 baseURL = 'https://0xmang.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Project'
-<<<<<<< HEAD
 theme = 'hugo-theme-m10c'
-=======
-theme = 'hugo-noir'
->>>>>>> 8468faf5650268ada9816111f914519eb3898ef9
