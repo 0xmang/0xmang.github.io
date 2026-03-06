@@ -2,3 +2,25 @@ baseURL = 'https://0xmang.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Project'
 theme = 'hugo-theme-m10c'
+
+[params]
+  author = "Rabih"
+  description = "Security learning, CTF walkthroughs, and how-tos"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  pageRef = "/about"
+  weight = 1
+
+[[menu.main]]
+  identifier = "resume"
+  name = "Resume"
+  pageRef = "/resume"
+  weight = 2
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  pageRef = "/blogs"
+  weight = 3
