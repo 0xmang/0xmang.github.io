@@ -1,0 +1,9 @@
+[submodule "hugo-theme-terminalcv"]
+	path = hugo-theme-terminalcv
+	url = https://github.com/coolapso/hugo-theme-terminalcv
+[submodule "themes/hugo-theme-terminalcv"]
+	path = themes/hugo-theme-terminalcv
+	url = https://github.com/coolapso/hugo-theme-terminalcv.git
+[submodule "themes/hugo-noir"]
+	path = themes/hugo-noir
+	url = https://github.com/prxshetty/hugo-noir
