@@ -3,7 +3,7 @@
 	url = https://github.com/coolapso/hugo-theme-terminalcv
 [submodule "themes/hugo-theme-terminalcv"]
 	path = themes/hugo-theme-terminalcv
-	url = https://github.com/coolapso/hugo-theme-terminalcv.git
+	url = https://github.com/coolapso/hugo-theme-terminalcv
 [submodule "themes/hugo-noir"]
 	path = themes/hugo-noir
 	url = https://github.com/prxshetty/hugo-noir
