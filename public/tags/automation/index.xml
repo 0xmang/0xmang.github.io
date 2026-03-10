@@ -1,0 +1,47 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Automation - Tag - Rabih&#39;s</title>
+        <link>http://localhost:1313/tags/automation/</link>
+        <description>Automation - Tag - Rabih&#39;s</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 11 Mar 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/automation/" rel="self" type="application/rss+xml" /><item>
+    <title>Raspberry Pi &#43; Twingate &#43; WireGuard</title>
+    <link>http://localhost:1313/rtw/</link>
+    <pubDate>Wed, 11 Mar 2026 00:00:00 &#43;0000</pubDate>
+    <author>Rabih Ghannoum</author>
+    <guid>http://localhost:1313/rtw/</guid>
+    <description><![CDATA[<h2 id="-raspberry-pi-remote-access-via-twingate--wireguard">🚀 Raspberry Pi Remote Access via Twingate + WireGuard</h2>
+<h4 id="use-your-raspberry-pi-as-a-secure-home-vpn-exit-node-with-zero-port-forwarding"><em>Use your Raspberry Pi as a secure home VPN exit node with zero port forwarding</em></h4>
+<hr>
+<h3 id="0-prerequisites"><strong>0. Prerequisites</strong></h3>
+<ul>
+<li>Raspberry Pi (OS: Bullseye or Bookworm, 64-bit)</li>
+<li>SSH or physical access to the Pi</li>
+<li>A Twingate tenant (free plan is fine)</li>
+<li>Your Pi has a static IP or DHCP reservation
+<ul>
+<li>Get Pi&rsquo;s IP:</li>
+</ul>
+</li>
+</ul>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hostname -I</span></span></code></pre></div></div>
+<p>Update the Pi:</p>]]></description>
+</item>
+<item>
+    <title>Using Tmux instead of paid SSH Clients</title>
+    <link>http://localhost:1313/free_tmux/</link>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 &#43;0000</pubDate>
+    <author>Rabih Ghannoum</author>
+    <guid>http://localhost:1313/free_tmux/</guid>
+    <description><![CDATA[<p>Simply, Tmux is a <em><strong>free</strong></em> and open-source terminal multiplexer for Unix-based systems. It does support multiple windows, panes and detachable sessions.
+It allows efficient and smart way to manage independent sessions, all in the same viewable terminal.
+Tmux is really important and life-saver for those who spend much of their working hours connecting to various servers and doing command line tasks, e.g. administrators, developers, integrators, and operation engineers.
+Tmux have hundreds of keyboard shortcuts that speeds up things and enable efficient and smart ways of working.
+In this tutorial, I will explain how to set up Tmux, and Tmuxinator, which is basically a ruby gem that builds on top of tmux to simplify managing complex tmux sessions. With Tmuxinator you can build your project (set of tmux windows/sessions/panes) using yaml configuration files which can be used as templates, easily shared, and upgradable.</p>]]></description>
+</item>
+</channel>
+</rss>

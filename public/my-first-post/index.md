@@ -1,9 +1,5 @@
----
-title: "My First Security Post"
-date: 2026-03-06
-draft: false
-tags: ["security", "learning"]
----
+# My First Security Post
+
 
 Welcome to my security blog.
 
@@ -12,4 +8,5 @@ Here I'll write about:
 - Kubernetes security
 - cloud security labs
 - GRC automation experiments
+
 
