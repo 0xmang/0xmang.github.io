@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "TMUX'ing"
 date: 2026-04-12
 draft: false
 ShowReadingTime: false
@@ -9,7 +9,7 @@ ShowToc: false
 cover:
   image: "/images/windows.jpg"
   alt: "TMUX setup"
-  caption: "Documenting cloud, security, automation, and technical projects."
+  caption: "Tmux setup"
 ---
 
 # Using Tmux instead of paid SSH Clients
