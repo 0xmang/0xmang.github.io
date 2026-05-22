@@ -1,5 +1,5 @@
 +++
-date = '2026-05-21T20:45:42-04:00'
+date = '2026-04-19T20:45:42-04:00'
 draft = false
 title = 'ISO 27001:2022 Control Mapping'
 [build]

@@ -2,7 +2,7 @@
 ---
 title: "Governance As Code on Azure"
 date: 2026-05-21
-draft: true
+draft: false
 ---
 
 I create a portfolio-ready cloud governance project spanning AWS, Azure, Terraform, and ISO/IEC 27001 thinking. Using Terraform, AWS native governance services, and Azure Policy / monitoring services, this lab shows how to:

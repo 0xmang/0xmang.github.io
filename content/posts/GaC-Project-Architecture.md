@@ -1,5 +1,5 @@
 +++
-date = '2026-05-21T20:43:04-04:00'
+date = '2026-04-20T20:43:04-04:00'
 title = 'GaC Project Architecture'
 draft = false
 
