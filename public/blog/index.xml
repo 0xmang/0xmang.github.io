@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Rabih&#39;s</title>
-    <link>//localhost:1313/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Rabih&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2026 15:15:08 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FirstBlog</title>
+      <link>http://localhost:1313/blog/firstblog/</link>
+      <pubDate>Fri, 06 Mar 2026 15:15:08 -0500</pubDate>
+      <guid>http://localhost:1313/blog/firstblog/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,3 +1,7 @@
-#baseURL = "http://"
+baseURL = "http://localhost:1313"
 languageCode = "en-us"
 title = "Rabih's"
+theme = "PaperMod"
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true

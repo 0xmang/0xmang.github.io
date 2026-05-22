@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automation on Rabih&#39;s</title>
-    <link>//localhost:1313/tags/automation/</link>
+    <link>http://localhost:1313/tags/automation/</link>
     <description>Recent content in Automation on Rabih&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi &#43; Twingate &#43; WireGuard</title>
-      <link>//localhost:1313/posts/rtw/</link>
+      <link>http://localhost:1313/posts/rtw/</link>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/rtw/</guid>
+      <guid>http://localhost:1313/posts/rtw/</guid>
       <description>&lt;h2 id=&#34;-raspberry-pi-remote-access-via-twingate--wireguard&#34;&gt;🚀 Raspberry Pi Remote Access via Twingate + WireGuard&lt;/h2&gt;&#xA;&lt;h4 id=&#34;use-your-raspberry-pi-as-a-secure-home-vpn-exit-node-with-zero-port-forwarding&#34;&gt;&lt;em&gt;Use your Raspberry Pi as a secure home VPN exit node with zero port forwarding&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;0-prerequisites&#34;&gt;&lt;strong&gt;0. Prerequisites&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raspberry Pi (OS: Bullseye or Bookworm, 64-bit)&lt;/li&gt;&#xA;&lt;li&gt;SSH or physical access to the Pi&lt;/li&gt;&#xA;&lt;li&gt;A Twingate tenant (free plan is fine)&lt;/li&gt;&#xA;&lt;li&gt;Your Pi has a static IP or DHCP reservation&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Get Pi&amp;rsquo;s IP:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hostname -I&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update the Pi:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt upgrade -y&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-create-remote-network--connector-in-twingate&#34;&gt;&lt;strong&gt;1. Create Remote Network &amp;amp; Connector in Twingate&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Log into the Twingate Admin Console.&lt;/li&gt;&#xA;&lt;li&gt;Create a &lt;strong&gt;Remote Network&lt;/strong&gt; (e.g., &lt;code&gt;Home-Network&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Under &lt;strong&gt;Connectors&lt;/strong&gt;, click an unused Connector → &lt;strong&gt;Deploy Connector&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Select &lt;strong&gt;Linux (systemd)&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Keep this window open — you’ll copy the script into the Pi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Tmux instead of paid SSH Clients</title>
-      <link>//localhost:1313/posts/free_tmux/</link>
+      <link>http://localhost:1313/posts/free_tmux/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/free_tmux/</guid>
+      <guid>http://localhost:1313/posts/free_tmux/</guid>
       <description>&lt;p&gt;Simply, Tmux is a &lt;em&gt;&lt;strong&gt;free&lt;/strong&gt;&lt;/em&gt; and open-source terminal multiplexer for Unix-based systems. It does support multiple windows, panes and detachable sessions.&#xA;It allows efficient and smart way to manage independent sessions, all in the same viewable terminal.&#xA;Tmux is really important and life-saver for those who spend much of their working hours connecting to various servers and doing command line tasks, e.g. administrators, developers, integrators, and operation engineers.&#xA;Tmux have hundreds of keyboard shortcuts that speeds up things and enable efficient and smart ways of working.&#xA;In this tutorial, I will explain how to set up Tmux, and Tmuxinator, which is basically a ruby gem that builds on top of tmux to simplify managing complex tmux sessions. With Tmuxinator you can build your project (set of tmux windows/sessions/panes) using yaml configuration files which can be used as templates, easily shared, and upgradable.&lt;/p&gt;</description>
     </item>
   </channel>
