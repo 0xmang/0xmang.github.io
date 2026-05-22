@@ -1,11 +1,10 @@
 +++
 date = '2026-04-20T20:43:04-04:00'
 title = 'GaC Project Architecture'
-draft = false
+draft = true
 
 [build]
   list = "never"
-  render = "always"
 +++
 
 # Architecture Overview

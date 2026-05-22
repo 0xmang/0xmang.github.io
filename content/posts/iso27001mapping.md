@@ -1,10 +1,9 @@
 +++
 date = '2026-04-19T20:45:42-04:00'
-draft = false
+draft = true
 title = 'ISO 27001:2022 Control Mapping'
 [build]
   list= "never"
-  render= "always"
 +++
 
 # ISO/IEC 27001:2022 Mapping
