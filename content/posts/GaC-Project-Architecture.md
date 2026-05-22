@@ -25,7 +25,7 @@ This project demonstrates how to translate governance objectives into repeatable
 ## High-level architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Terraform] --> B[AWS Governance Baseline]
     A --> C[Azure Governance Baseline]
 
