@@ -1,35 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Security - Tag - Rabih&#39;s</title>
-        <link>http://localhost:1313/tags/security/</link>
-        <description>Security - Tag - Rabih&#39;s</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 11 Mar 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/security/" rel="self" type="application/rss+xml" /><item>
-    <title>Raspberry Pi &#43; Twingate &#43; WireGuard</title>
-    <link>http://localhost:1313/rtw/</link>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 &#43;0000</pubDate>
-    <author>Rabih Ghannoum</author>
-    <guid>http://localhost:1313/rtw/</guid>
-    <description><![CDATA[<h2 id="-raspberry-pi-remote-access-via-twingate--wireguard">🚀 Raspberry Pi Remote Access via Twingate + WireGuard</h2>
-<h4 id="use-your-raspberry-pi-as-a-secure-home-vpn-exit-node-with-zero-port-forwarding"><em>Use your Raspberry Pi as a secure home VPN exit node with zero port forwarding</em></h4>
-<hr>
-<h3 id="0-prerequisites"><strong>0. Prerequisites</strong></h3>
-<ul>
-<li>Raspberry Pi (OS: Bullseye or Bookworm, 64-bit)</li>
-<li>SSH or physical access to the Pi</li>
-<li>A Twingate tenant (free plan is fine)</li>
-<li>Your Pi has a static IP or DHCP reservation
-<ul>
-<li>Get Pi&rsquo;s IP:</li>
-</ul>
-</li>
-</ul>
-<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
-    <div class="code-header language-bash">
-        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
-        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
-        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
-    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hostname -I</span></span></code></pre></div></div>
-<p>Update the Pi:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Rabih&#39;s</title>
+    <link>//localhost:1313/tags/security/</link>
+    <description>Recent content in Security on Rabih&#39;s</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raspberry Pi &#43; Twingate &#43; WireGuard</title>
+      <link>//localhost:1313/posts/rtw/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/rtw/</guid>
+      <description>&lt;h2 id=&#34;-raspberry-pi-remote-access-via-twingate--wireguard&#34;&gt;🚀 Raspberry Pi Remote Access via Twingate + WireGuard&lt;/h2&gt;&#xA;&lt;h4 id=&#34;use-your-raspberry-pi-as-a-secure-home-vpn-exit-node-with-zero-port-forwarding&#34;&gt;&lt;em&gt;Use your Raspberry Pi as a secure home VPN exit node with zero port forwarding&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;0-prerequisites&#34;&gt;&lt;strong&gt;0. Prerequisites&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raspberry Pi (OS: Bullseye or Bookworm, 64-bit)&lt;/li&gt;&#xA;&lt;li&gt;SSH or physical access to the Pi&lt;/li&gt;&#xA;&lt;li&gt;A Twingate tenant (free plan is fine)&lt;/li&gt;&#xA;&lt;li&gt;Your Pi has a static IP or DHCP reservation&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Get Pi&amp;rsquo;s IP:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hostname -I&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update the Pi:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt upgrade -y&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-create-remote-network--connector-in-twingate&#34;&gt;&lt;strong&gt;1. Create Remote Network &amp;amp; Connector in Twingate&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Log into the Twingate Admin Console.&lt;/li&gt;&#xA;&lt;li&gt;Create a &lt;strong&gt;Remote Network&lt;/strong&gt; (e.g., &lt;code&gt;Home-Network&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Under &lt;strong&gt;Connectors&lt;/strong&gt;, click an unused Connector → &lt;strong&gt;Deploy Connector&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Select &lt;strong&gt;Linux (systemd)&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Keep this window open — you’ll copy the script into the Pi.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

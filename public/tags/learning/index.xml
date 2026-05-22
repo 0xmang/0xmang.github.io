@@ -1,19 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Learning - Tag - Rabih&#39;s</title>
-        <link>http://localhost:1313/tags/learning/</link>
-        <description>Learning - Tag - Rabih&#39;s</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/learning/" rel="self" type="application/rss+xml" /><item>
-    <title>Using Tmux instead of paid SSH Clients</title>
-    <link>http://localhost:1313/free_tmux/</link>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 &#43;0000</pubDate>
-    <author>Rabih Ghannoum</author>
-    <guid>http://localhost:1313/free_tmux/</guid>
-    <description><![CDATA[<p>Simply, Tmux is a <em><strong>free</strong></em> and open-source terminal multiplexer for Unix-based systems. It does support multiple windows, panes and detachable sessions.
-It allows efficient and smart way to manage independent sessions, all in the same viewable terminal.
-Tmux is really important and life-saver for those who spend much of their working hours connecting to various servers and doing command line tasks, e.g. administrators, developers, integrators, and operation engineers.
-Tmux have hundreds of keyboard shortcuts that speeds up things and enable efficient and smart ways of working.
-In this tutorial, I will explain how to set up Tmux, and Tmuxinator, which is basically a ruby gem that builds on top of tmux to simplify managing complex tmux sessions. With Tmuxinator you can build your project (set of tmux windows/sessions/panes) using yaml configuration files which can be used as templates, easily shared, and upgradable.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Rabih&#39;s</title>
+    <link>//localhost:1313/tags/learning/</link>
+    <description>Recent content in Learning on Rabih&#39;s</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Tmux instead of paid SSH Clients</title>
+      <link>//localhost:1313/posts/free_tmux/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/free_tmux/</guid>
+      <description>&lt;p&gt;Simply, Tmux is a &lt;em&gt;&lt;strong&gt;free&lt;/strong&gt;&lt;/em&gt; and open-source terminal multiplexer for Unix-based systems. It does support multiple windows, panes and detachable sessions.&#xA;It allows efficient and smart way to manage independent sessions, all in the same viewable terminal.&#xA;Tmux is really important and life-saver for those who spend much of their working hours connecting to various servers and doing command line tasks, e.g. administrators, developers, integrators, and operation engineers.&#xA;Tmux have hundreds of keyboard shortcuts that speeds up things and enable efficient and smart ways of working.&#xA;In this tutorial, I will explain how to set up Tmux, and Tmuxinator, which is basically a ruby gem that builds on top of tmux to simplify managing complex tmux sessions. With Tmuxinator you can build your project (set of tmux windows/sessions/panes) using yaml configuration files which can be used as templates, easily shared, and upgradable.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

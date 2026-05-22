@@ -1,4 +1,0 @@
-# My Second Post
-
-Thanks!
-
