@@ -1,40 +1,65 @@
-+++
-date = '2026-04-02T12:53:58-04:00'
-draft = true
-title = 'About'
-+++
-
+---
+title: "About"
+date: 2026-04-12
+draft: false
+ShowReadingTime: false
+ShowBreadCrumbs: true
+ShowPostNavLinks: false
+ShowToc: false
+cover:
+  image: "/images/about-cover.jpg"
+  alt: "Workspace with laptop and notes"
+  caption: "Documenting cloud, security, automation, and technical projects."
+---
 
 # About
 
-Welcome to my site.
+Hi, I’m Rabih.
 
-This blog is where I document the technical projects, labs, troubleshooting steps, and lessons I learn while working across cloud, cybersecurity, automation, infrastructure, and software development.
+I created this site to document hands-on personal technical projects, troubleshooting notes, and step-by-step guides across cloud, cybersecurity, automation, infrastructure, and development.
 
-I created this site to keep practical notes in one place and to share step-by-step guides that others can reuse. Most of my posts are written from hands-on experience, including commands, configuration examples, sample outputs, and lessons learned along the way.
+This blog is my personal knowledge base. When I learn something useful, solve a technical issue, or build a small project, I write it down here so I can come back to it later — and hopefully help someone else facing the same problem.
+
+---
 
 ## What I write about
 
-I use this blog to document topics such as:
+I mostly write practical notes on:
 
 - Azure cloud administration and governance
-- Infrastructure as code and automation
-- Cybersecurity tools, labs, and defensive practices
-- Linux and macOS setup notes
+- Infrastructure as code
+- Cybersecurity labs and defensive practices
+- Linux and macOS setup
 - Self-hosting and home lab projects
-- Scripting, troubleshooting, and technical workflows
-- AI tools and practical development experiments
+- Automation, scripting, and troubleshooting
+- AI tools and development workflows
 
-My goal is to write posts that are simple, useful, and reproducible. If I had to spend time figuring something out, I try to document it clearly so I can come back to it later — and so someone else can benefit from it too.
+---
 
-## Why I built this site
+## Why this site exists
 
-I wanted a lightweight, fast, and version-controlled place to publish technical notes. Hugo was a good fit because it lets me write everything in Markdown, keep the site in Git, and generate a fast static website without needing a database or heavy content management system.
+I wanted a simple, fast, and version-controlled place to publish technical notes.
 
-This site is also part of my learning process. Writing things down helps me understand them better, organize my thoughts, and build a personal knowledge base over time.
+Hugo and PaperMod are a good fit because the site is lightweight, written in Markdown, easy to manage with Git, and simple to deploy as a static website.
+
+---
+
+## My approach
+
+I try to keep posts:
+
+- Practical
+- Reproducible
+- Clear
+- Command-focused
+- Based on real setup or troubleshooting experience
+
+Whenever possible, I include commands, configuration examples, outputs, and lessons learned.
+
+---
 
 ## Disclaimer
 
-The content on this site reflects my personal learning, projects, and technical notes. Commands and configurations should always be reviewed and tested in your own environment before using them in production.
+The content on this site reflects my personal learning and technical notes. Always test commands and configurations in your own environment before using them in production.
 
 Thanks for visiting.
