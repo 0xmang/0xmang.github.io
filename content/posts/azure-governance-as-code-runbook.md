@@ -5,8 +5,6 @@ draft: false
 
 ---
 
-# Governance as Code on Azure: Storage Policy Controls, Assignment, Compliance Testing, and Alerts
-
 This project implements governance as code on Azure by defining, deploying, and testing custom Azure Policy controls for storage account security.
 It enforces three baseline controls:
 
