@@ -1,6 +1,6 @@
 ---
 title: "How I Set Up My Hugo Blog Site on Linux/macOS"
-date: 2026-04-12
+date: 2026-04-10
 draft: false
 tags:
   - Hugo
@@ -11,6 +11,10 @@ tags:
 categories:
   - Web
   - DevOps
+cover:
+  image: "/images/hugo-logo-wide.svg"
+  alt: "Hugo static site generator branding"
+  caption: "Building a fast static site with Hugo."
 ---
 
 # How I Set Up My Hugo Blog Site on Linux/macOS

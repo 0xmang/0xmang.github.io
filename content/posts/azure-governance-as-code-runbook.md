@@ -2,7 +2,10 @@
 date: '2026-04-20T20:43:04-04:00'
 title: 'Governance-as-Code on Azure'
 draft: false
-
+cover:
+  image: "/images/gac.jpeg"
+  alt: "Governance-as-code"
+  caption: "Governance-as-code"
 ---
 
 This project implements governance as code on Azure by defining, deploying, and testing custom Azure Policy controls for storage account security.
